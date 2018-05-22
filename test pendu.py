@@ -112,7 +112,7 @@ dessins = [
 
 max_erreurs = len(dessins) - 1
 
-def lire_lettre(proposition):  
+def lire_la_lettre(proposition):  
 
     while True:
         lettre = input("Proposez une lettre en minuscule: ")
@@ -126,7 +126,7 @@ def lire_lettre(proposition):
     proposition.append(lettre)
     return lettre
 
-def mot_avec_tirets(mot, proposition):
+def tirets(mot, proposition):
     
     
     m = ''
@@ -137,7 +137,7 @@ def mot_avec_tirets(mot, proposition):
             m = m + '-'
     return m
 
-def partie():
+def jeux():
     
     erreurs = 0
     mot = mots[randrange(len(mots))]
@@ -180,5 +180,5 @@ while True:
         break;
 
 print("Vous avez joué", parties, "partie")
-print("vous avez gagné", victoires)
+print(",vous avez gagné", victoires)
 print("Salut")
