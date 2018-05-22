@@ -16,4 +16,4 @@ for i in range(0,len(liste)):
             new_list.append(liste[i])
             break
                 
-        place++
+    
