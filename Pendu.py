@@ -169,9 +169,9 @@ def partie():
 nbr_parties = 0
 nbr_victoires = 0
 while True:
-    nbr_parties = nbr_parties + 1
+    nbr_parties += 1
     if partie():
-        nbr_victoires = nbr_victoires + 1
+        nbr_victoires += +1
 
     while True:
         continuer = input("mot commençant par un c pour continuer, mot commençant par un a pour arrêter : ")
